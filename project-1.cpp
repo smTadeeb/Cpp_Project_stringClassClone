@@ -46,7 +46,7 @@ this->ptr=other.ptr;
 other.ptr=NULL;
 }
 
-STR & operator=(STR const &other) 	//copy-assignment operator        STR & operator=(STR &other, STR *this)  f.=(i,&f)
+STR & operator=(STR const &other) 	//copy-assignment operator
 {
 if(this->ptr) delete [] this->ptr;
 this->ptr=NULL;
@@ -83,7 +83,7 @@ if(this->ptr) strcpy(this->ptr,s);
 return *this;
 }
 
-//string1.<(string2,&string1);
+//Comparing 2 strings;
 int operator<(const STR &other)
 {
 if(this->ptr==NULL && other.ptr==NULL) return 0;
@@ -138,7 +138,16 @@ if(strcmp(this->ptr,other.ptr) != 0) return 1;
 else return 0;
 }
 
-~STR()
+STR & operator+(STR &other)      //Concatinating 2 strings
+{
+if(!this->ptr && !other.ptr) return *this;
+if(!this->ptr) return other;
+if(!other.ptr) return *this;
+strcat(this->ptr, other.ptr);
+return *this;
+}
+
+~STR()   //Destructor
 {
 if(this->ptr) delete [] this->ptr;
 }
