@@ -138,13 +138,15 @@ if(strcmp(this->ptr,other.ptr) != 0) return 1;
 else return 0;
 }
 
-STR & operator+(STR &other)      //Concatinating 2 strings
+STR operator+(STR &other)      //Concatinating 2 strings
 {
-if(!this->ptr && !other.ptr) return *this;
-if(!this->ptr) return other;
-if(!other.ptr) return *this;
-strcat(this->ptr, other.ptr);
-return *this;
+STR tmp;
+tmp = *this;     //like tmp =a;
+if(!tmp.ptr && !other.ptr) return tmp;
+if(!tmp.ptr) return other;
+if(!other.ptr) return tmp;
+strcat(tmp.ptr, other.ptr);
+return tmp;
 }
 
 ~STR()   //Destructor
