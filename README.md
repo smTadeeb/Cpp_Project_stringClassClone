@@ -47,7 +47,7 @@ int main() {
 
     return 0;
 }
-
+```
 ## Notes
 All heap allocations are manually managed.
 Every copy or move operation ensures deep copy to avoid memory leaks or dangling pointers.
@@ -66,7 +66,7 @@ Support Unicode/UTF-8.
 Add input support via istream operator overload (operator>>).
 Introduce exception-safe memory handling using smart pointers (e.g., std::unique_ptr).
 
-🧑‍💻 Author
+## Author
 This class was written from scratch as a hands-on exploration into C++ memory handling, deep copy/move semantics, and operator overloading.
 It serves as a building block for deeper understanding of the internals behind the STL string class.
-```
+
