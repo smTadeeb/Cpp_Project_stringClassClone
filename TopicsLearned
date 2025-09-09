@@ -21,4 +21,8 @@
 21. memory leak cause , effect and prevention techniques.
 22. Method overiding.
 23. propertyless class 
-24. 
+24. cout (an object in ostream class), cin (an object in istream class), endl (a function defined in std namespace)
+25. this keyword.
+26. const keyword and its usage
+27. concept of alias (call by reference, call by address, call by value)
+28. 
