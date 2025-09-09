@@ -1,0 +1,24 @@
+1. Polymorphism
+2. Function Overloading
+3. function signature
+4. class, object, namespace
+5. scope resolution operator (::)
+6. Encapsulation
+7. access specifiers (public, private, protected)
+8. friend class, friend function
+9. static properties and static methods
+10. non-static properties and non-static methods
+11. members of class (properties and methods)
+12. forward declaration.
+13. prototype declaration
+14. constructors (empty, copy, move, default, parameterized, default argument)
+15. Shallow copy, deep copy. (in case of copy constructor)
+16. destructors.
+17. new & delete operator
+18. inheritance 
+19. visibility mode.
+20. inner class and its usage 
+21. memory leak cause , effect and prevention techniques.
+22. Method overiding.
+23. propertyless class 
+24. 
