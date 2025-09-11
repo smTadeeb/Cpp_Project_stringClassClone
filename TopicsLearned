@@ -26,3 +26,6 @@
 26. const keyword and its usage
 27. concept of alias (call by reference, call by address, call by value)
 28. Abstract class
+29. Virtual Keyword
+30. Operator Overloading
+31. Class Template
