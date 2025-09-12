@@ -15,7 +15,7 @@
 15. Shallow copy, deep copy. (in case of copy constructor)
 16. destructors.
 17. new & delete operator
-18. inheritance 
+18. inheritance concepts
 19. visibility mode.
 20. inner class and its usage 
 21. memory leak cause , effect and prevention techniques.
@@ -25,7 +25,11 @@
 25. this keyword.
 26. const keyword and its usage
 27. concept of alias (call by reference, call by address, call by value)
-28. Abstract class
-29. Virtual Keyword
-30. Operator Overloading
-31. Class Template
+28. Constructors & destructor behaviour in Inheritance. 
+29. Compile Time binding or Early binding
+30. Dynamic Binding or Late Binding
+31. Virtual Keyword
+32. Virtual Polymorphism
+33. Abstract class
+34. Operator Overloading
+35. Class Template
