@@ -29,7 +29,9 @@
 29. Compile Time binding or Early binding
 30. Dynamic Binding or Late Binding
 31. Virtual Keyword
-32. Virtual Polymorphism
-33. Abstract class
-34. Operator Overloading
-35. Class Template
+32. Virtual Polymorphism (for better management)
+33. Pure Virtual Function
+34. Abstract class
+35. Operator Overloading
+36. Class Template
+37. STL (Standard Template Library) or Collection Classes.
