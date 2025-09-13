@@ -33,5 +33,6 @@
 33. Pure Virtual Function
 34. Abstract class
 35. Operator Overloading
-36. Class Template
-37. STL (Standard Template Library) or Collection Classes.
+36. Copy assignment operator and Move assignment operator (concept and their behaviour)
+37. Class Template
+38. STL (Standard Template Library) or Collection Classes.
